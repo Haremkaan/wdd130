@@ -193,3 +193,141 @@ footer {
 .socialmedia img {
     width: 30px;
 }
+
+/* Contact Page Layout */
+.contact-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Company Info */
+.contact-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info p {
+    margin: 0.3rem 0;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Grid Layout for Map and Form */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+    margin-bottom: 3rem;
+}
+
+/* Map */
+.map iframe {
+    width: 100%;
+    height: 350px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contact-form .form-label {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    margin-right: 0.4rem;
+}
+
+.contact-form .checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.contact-form button {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover,
+.contact-form button:focus-visible {
+    background-color: #005fa3;
+}
+
+/* Employee Section */
+.employees {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.employees h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.employee-grid figure {
+    text-align: center;
+}
+
+.employee-grid img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    background-color: #ddd;
+}
+
+.employee-grid figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
