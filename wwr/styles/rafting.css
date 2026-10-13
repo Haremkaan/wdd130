@@ -91,16 +91,15 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
-    top: 20px;
+    top: 10px;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
-    /*white text */
 }
 
 h2 {
@@ -205,12 +204,11 @@ footer {
 /* Company Info */
 .contact-info {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
-.contact-info h2 {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
+.contact-info h1 {
+    background-color: none;
 }
 
 .contact-info p {
@@ -330,4 +328,12 @@ a {
 .employee-grid figcaption {
     margin-top: 0.5rem;
     font-weight: bold;
+}
+
+.map-frame {
+    border: none;
+    width: 600px;
+    height: 450px;
+    border-radius: 8px;
+
 }
