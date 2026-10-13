@@ -31,6 +31,8 @@ li {
 nav {
     display: flex;
     list-style: none;
+    background-color: #f9f9f9;
+    border-radius: 8px;
 
 }
 
@@ -182,6 +184,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+
 }
 
 .socialmedia {
@@ -204,6 +207,7 @@ footer {
 /* Company Info */
 .contact-info {
     text-align: center;
+    margin-bottom: 1rem;
 
 }
 
@@ -341,4 +345,5 @@ a {
 .title {
     text-align: center;
     font-size: 20px;
+    margin-bottom: -1rem;
 }
